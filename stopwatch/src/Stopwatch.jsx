@@ -31,7 +31,7 @@ const Stopwatch = () => {
   return (
     <div>
       <h1>Stopwatch</h1>
-      <p>Time:{FormatTime(time)}</p>
+      <p>Time: {FormatTime(time)}</p>
       {interval === -1 ? (
         <button onClick={UpdateTime}>Start</button>
       ) : (
